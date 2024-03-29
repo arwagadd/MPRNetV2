@@ -24,7 +24,7 @@ TRAINING:
   RESUME: False
   TRAIN_PS: 256
   VAL_PS: 128
-  TRAIN_DIR: 'MPRNetV2/Deraining/Datasets/Synthetic_Rain_Datasets/train'       # path to training data
-  VAL_DIR: 'MPRNetV2/Deraining/Datasets/Synthetic_Rain_Datasets/test'          # path to validation data
-  SAVE_DIR: './checkpoints'           # path to save models and images
+  TRAIN_DIR: 'kaggle/working/MPRNetV2/Deraining/Datasets/Synthetic_Rain_Datasets/train'       # path to training data
+  VAL_DIR: 'kaggle/working/MPRNetV2/Deraining/Datasets/Synthetic_Rain_Datasets/test'          # path to validation data
+  SAVE_DIR: './checkpoints'                                                                   # path to save models and images
   # SAVE_IMAGES: False

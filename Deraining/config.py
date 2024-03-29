@@ -75,8 +75,8 @@ class Config(object):
         self._C.TRAINING.VAL_AFTER_EVERY = 3
         self._C.TRAINING.RESUME = False
         self._C.TRAINING.SAVE_IMAGES = False
-        self._C.TRAINING.TRAIN_DIR = 'images_dir/train'
-        self._C.TRAINING.VAL_DIR = 'images_dir/val'
+        self._C.TRAINING.TRAIN_DIR = 'MPRNet/Deraining/Datasets/Synthetic_Rain_Datasets/train'
+        self._C.TRAINING.VAL_DIR = 'MPRNet/Deraining/Datasets/Synthetic_Rain_Datasets/test'
         self._C.TRAINING.SAVE_DIR = 'checkpoints'
         self._C.TRAINING.TRAIN_PS = 64
         self._C.TRAINING.VAL_PS = 64

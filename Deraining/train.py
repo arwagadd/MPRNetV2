@@ -87,6 +87,8 @@ criterion_char = losses.CharbonnierLoss()
 criterion_edge = losses.EdgeLoss()
 
 ######### DataLoaders ###########
+print("hello directory")
+print(train_dir)
 train_dataset = get_training_data(train_dir, {'patch_size':opt.TRAINING.TRAIN_PS})
 train_loader = DataLoader(dataset=train_dataset, batch_size=opt.OPTIM.BATCH_SIZE, shuffle=True, num_workers=16, drop_last=False, pin_memory=True)
 

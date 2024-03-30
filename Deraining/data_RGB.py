@@ -2,6 +2,7 @@ import os
 from dataset_RGB import DataLoaderTrain, DataLoaderVal, DataLoaderTest
 
 def get_training_data(rgb_dir, img_options):
+    print(rgb_dir)
     assert os.path.exists(rgb_dir)
     return DataLoaderTrain(rgb_dir, img_options)
 
